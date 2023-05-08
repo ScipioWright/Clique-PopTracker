@@ -1,57 +1,42 @@
 [
     {
-        "name": "Example Parent",
+        "name": "Clique",
         "children": [
             {
-                "name": "Example Location 1",
-                "access_rules": [
-                    //read as: progressive_2 or toggle                    
-                    "progressive_2",
-                    "toggle"                    
-                ],
+                "name": "The Desk",
                 "sections": [
                     {
-                        "name": "Example Section 1",
+                        "name": "The Item on the Desk",
                         "item_count": 1
-                    },
-                    {
-                        "name": "Example Section 2",
-                        "item_count": 3
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1750,
-                        "y": 700
-                    },
-                    {
-                        "map": "map2",
-                        "x": 1000,
-                        "y": 500
+                        "map": "clique-map",
+                        "x": 183,
+                        "y": 249
                     }
                 ]
             },
             {
-                "name": "Example Location 2",
+                "name": "The Button",
                 "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
+                    "button-key"
                 ],
                 "sections": [
                     {
-                        "name": "Example Section 1",
+                        "name": "Push",
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1500,
-                        "y": 400
+                        "map": "clique-map",
+                        "x": 90,
+                        "y": 115
                     }
                 ]
-            }            
+            }
         ]
     }
 ]

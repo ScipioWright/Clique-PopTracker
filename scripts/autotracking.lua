@@ -18,6 +18,4 @@ print("")
 
 -- loads the AP autotracking code
 ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
--- loads the SNES autotracking code
-ScriptHost:LoadScript("scripts/autotracking/snes.lua")
 

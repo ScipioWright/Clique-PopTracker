@@ -3,6 +3,6 @@
 -- to reference an item use it's code
 -- here are the SM locations as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/location_mapping.lua
 LOCATION_MAPPING = {
-    [00001] = {"@Example Parent/Example Location 1/Example Section 1"},
-    [00002] = {"toggle"},    
+    [69696968] = {"@Clique/The Desk/The Item on the Desk"},
+    [69696969] = {"@Clique/The Button/Push"},
 }
